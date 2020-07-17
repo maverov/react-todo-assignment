@@ -22,6 +22,7 @@ export default class TodoInput extends Component {
               placeholder="Add a new to-do item..."
               value={item}
               onChange={handleChange}
+              required
             />
           </div>
           <button
